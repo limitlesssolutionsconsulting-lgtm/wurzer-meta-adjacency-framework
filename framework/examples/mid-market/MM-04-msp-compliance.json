@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-04",
+  "company_profile": {
+    "name": "BlueShield Managed IT",
+    "industry": "IT Managed Services (MSP)",
+    "annual_revenue_bracket": "10-25M",
+    "years_in_operation": "11 years",
+    "geography": "Midwest USA",
+    "core_product_or_service": "Managed IT support, network monitoring, and cybersecurity basics for SMB clients",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.85,
+    "customer_overlap":      0.90,
+    "asset_reusability":     0.85,
+    "market_proximity":      0.95,
+    "synergy_potential":     0.80,
+    "scalability_index":     0.65,
+    "strategic_optionality": 0.55,
+    "friction_score":        0.25,
+    "capital_intensity":     0.15,
+    "time_to_viability":     0.20,
+    "risk_exposure":         0.30
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.085,
+      "customer_overlap":      0.090,
+      "asset_reusability":     0.213,
+      "market_proximity":      0.095,
+      "synergy_potential":     0.120,
+      "scalability_index":     0.033,
+      "strategic_optionality": 0.044,
+      "friction_score":       -0.018,
+      "capital_intensity":    -0.009,
+      "time_to_viability":    -0.016,
+      "risk_exposure":        -0.036
+    },
+    "adjacency_score": 0.70,
+    "verdict": "Strong adjacency",
+    "confidence_score": 83,
+    "scenario_analysis": {
+      "base_case_summary": "Existing MSP clients adopt compliance documentation packages gradually, driven by cyber insurance renewal requirements.",
+      "optimistic_case_summary": "Rapid adoption as insurance carriers tighten requirements and new regulations expand compliance scope across client industries.",
+      "conservative_case_summary": "Slower uptake but viable — even partial adoption generates meaningful recurring revenue with near-zero incremental cost.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch Compliance-as-a-Service for existing SMB clients facing cyber insurance and regulatory documentation pressure.",
+    "signal": "Clients increasingly requesting help with cyber insurance questionnaires, SOC 2 prep, and compliance documentation — requests BlueShield currently turns away.",
+    "why_now": "Cyber insurance carriers and regulators are tightening requirements on a 12–24 month cycle, creating urgent demand for documentation services that SMBs cannot produce internally.",
+    "asset_advantage": "BlueShield already manages the networks, endpoints, and security tools that compliance frameworks audit. They have direct visibility into compliance gaps that an outside compliance firm would need months to discover.",
+    "adjacent_opportunity": "Compliance-as-a-Service: policy templates, audit preparation, documentation management, and ongoing compliance monitoring packaged as a monthly subscription.",
+    "revenue_upside": {
+      "qualitative_potential": "high",
+      "revenue_bracket_directional": "1-3M (directional only)",
+      "assumptions_summary": "Based on typical adoption patterns among MSP clients facing insurance and regulatory pressure. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "Cyber insurance brokers and compliance SaaS vendors are already establishing relationships with SMB clients. Once those contracts are signed, BlueShield becomes a vendor rather than a strategic partner.",
+    "buyer_profile": "SMB owners, operations managers, and IT decision-makers in regulated or insurance-sensitive industries — healthcare-adjacent, financial services, legal, and professional services.",
+    "risk_flags": [
+      "Staff training on compliance frameworks required (SOC 2, HIPAA-adjacent, CIS)",
+      "Liability exposure if compliance scope is unclear — must define what BlueShield is and is not certifying",
+      "Client misunderstanding of shared responsibility — clear service agreements required",
+      "Regulatory frameworks evolve — offering requires ongoing maintenance"
+    ],
+    "time_window": {
+      "urgency_level": 8,
+      "window_opens": "Immediate",
+      "window_closes": "12–24 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Adjacent Market Expansion",
+    "adjacency_archetype": "CD-03: Compliance & Documentation",
+    "entry_path_90_days": {
+      "days_1_30": "Define compliance scope clearly (what BlueShield is and is not responsible for). Train 2 staff on core frameworks. Create documentation templates for the 3 most common client compliance needs.",
+      "days_31_60": "Pilot compliance assessments with 10 existing clients most exposed to insurance requirements. Refine templates and pricing based on time invested.",
+      "days_61_90": "Launch subscription-based compliance monitoring and documentation service. Price as monthly add-on to existing MSP contracts.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Clients asking for help completing cyber insurance questionnaires — requests the current team was answering informally without charging for the time.",
+      "multiplier_dimension_sensed": "Adjacent Market Expansion — compliance and documentation archetype. The work was already happening for free.",
+      "non_obvious_connection": "MSPs already have the data needed for compliance reporting — they manage the systems that compliance frameworks audit. They just don't package that visibility as a service.",
+      "disqualifying_risks_checked": "Capital intensity is near-zero — no new infrastructure required. Liability is manageable with clear scope. The only meaningful risk is staff training, which is finite and one-time.",
+      "strongest_reason_it_works": "BlueShield already controls the systems that compliance frameworks audit. An outside compliance firm would need months of access to gather the same information BlueShield already has in its monitoring dashboards.",
+      "transferable_lesson": "Service providers with deep operational visibility into client systems can expand into compliance and documentation services with minimal investment because they already possess the information those services require. The monetization gap is not capability — it is packaging."
+    }
+  }
+}
