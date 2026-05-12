@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "EE-01",
+  "company_profile": {
+    "name": "OmniServe Facilities Group",
+    "industry": "Global Integrated Facilities Management (IFM)",
+    "annual_revenue_bracket": "500M+",
+    "years_in_operation": "34 years",
+    "geography": "North America, Europe, APAC",
+    "core_product_or_service": "Integrated facilities management, building operations, energy management, janitorial, security, and technical services",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.85,
+    "customer_overlap":      0.95,
+    "asset_reusability":     0.90,
+    "market_proximity":      0.95,
+    "synergy_potential":     0.85,
+    "scalability_index":     0.80,
+    "strategic_optionality": 0.75,
+    "friction_score":        0.35,
+    "capital_intensity":     0.25,
+    "time_to_viability":     0.30,
+    "risk_exposure":         0.40
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.085,
+      "customer_overlap":      0.095,
+      "asset_reusability":     0.225,
+      "market_proximity":      0.095,
+      "synergy_potential":     0.128,
+      "scalability_index":     0.040,
+      "strategic_optionality": 0.060,
+      "friction_score":       -0.025,
+      "capital_intensity":    -0.015,
+      "time_to_viability":    -0.024,
+      "risk_exposure":        -0.048
+    },
+    "adjacency_score": 0.72,
+    "verdict": "Strong adjacency",
+    "confidence_score": 83,
+    "scenario_analysis": {
+      "base_case_summary": "Adoption driven by large enterprise clients seeking unified ESG reporting and operational visibility across global portfolios.",
+      "optimistic_case_summary": "Rapid adoption across multinational portfolios due to tightening regulatory pressure and energy cost volatility creating urgent demand.",
+      "conservative_case_summary": "Adoption slower but viable due to strong overlap, existing enterprise contracts, and near-zero acquisition cost for new service.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch an enterprise-grade ESG and Operational Performance Monitoring Platform built on existing facilities data.",
+    "signal": "Global clients requesting unified dashboards for energy, water, waste, carbon, and facility performance — requests currently handled by 4–6 separate vendors per client.",
+    "why_now": "ESG reporting mandates are tightening globally. Enterprise clients are consolidating vendors to reduce reporting fragmentation. The first IFM provider to deliver a unified platform locks in multi-year data contracts.",
+    "asset_advantage": "OmniServe already manages the physical operations, energy systems, and facility workflows across global client portfolios. The ESG data already exists — it is scattered across operating systems rather than unified into a reporting layer.",
+    "adjacent_opportunity": "ESG data aggregation, real-time performance monitoring, anomaly detection, compliance reporting, and executive dashboards — delivered as a SaaS layer on top of existing operational data.",
+    "revenue_upside": {
+      "qualitative_potential": "very_high",
+      "revenue_bracket_directional": "50-120M (directional only)",
+      "assumptions_summary": "Based on typical enterprise platform adoption patterns across multinational portfolios. Assumes 15–25% of existing enterprise client base adopts the platform at meaningful contract values. Directional only."
+    },
+    "cost_of_waiting": "Competing IFM providers and ESG SaaS vendors are moving into this space. The first mover who integrates operational data with ESG reporting at the enterprise level locks in multi-year platform contracts that are difficult to displace.",
+    "buyer_profile": "Global real estate directors, sustainability officers, CFOs, and enterprise operations leaders at multinational corporations with complex property portfolios.",
+    "risk_flags": [
+      "Data integration complexity across legacy building management systems",
+      "Regulatory reporting liability if ESG scope is unclear or data is inaccurate",
+      "High client expectations for real-time accuracy",
+      "Platform build or buy decision — in-house development vs. acquisition of existing ESG SaaS"
+    ],
+    "time_window": {
+      "urgency_level": 9,
+      "window_opens": "Immediate",
+      "window_closes": "18–36 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Adjacent Market Expansion",
+    "adjacency_archetype": "MA-01: Monitoring & Analytics",
+    "entry_path_90_days": {
+      "days_1_30": "Define ESG data schema across top 5 client portfolios. Audit existing data sources and identify gaps. Evaluate build vs. acquire options for the platform layer.",
+      "days_31_60": "Build MVP dashboard integrating energy and water data for 5 pilot clients. Present to sustainability officers. Refine anomaly detection and reporting modules based on feedback.",
+      "days_61_90": "Launch enterprise ESG monitoring platform in beta with tiered subscription pricing. Establish internal team for ongoing platform management and client onboarding.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Enterprise clients requesting unified ESG dashboards — a request that currently requires coordinating 4–6 separate vendors, none of whom have the operational context OmniServe has.",
+      "multiplier_dimension_sensed": "Adjacent Market Expansion — monitoring and analytics archetype at enterprise scale.",
+      "non_obvious_connection": "OmniServe already controls the operational data streams that ESG reporting depends on. The platform layer doesn't require new data collection — it requires aggregation and packaging of data that already exists across operational systems.",
+      "disqualifying_risks_checked": "Integration complexity is real but manageable as a phased rollout. Reporting liability is controllable with clear scope definition. Platform development cost is offset by contract values at enterprise scale.",
+      "strongest_reason_it_works": "OmniServe sits at the intersection of operations, energy, and compliance — the exact inputs ESG reporting requires. No outside vendor can replicate that operational context without years of access to the same buildings.",
+      "transferable_lesson": "Enterprise service providers who control operational infrastructure can expand into data aggregation and reporting at global scale because they already possess the source data that reporting platforms depend on. The platform layer is a monetization mechanism for data that already exists."
+    }
+  }
+}
