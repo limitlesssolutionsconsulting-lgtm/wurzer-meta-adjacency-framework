@@ -1,0 +1,257 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WMAF Adjacency Opportunity Object",
+  "description": "Canonical output schema for the Wurzer Meta-Adjacency Framework v1.0",
+  "type": "object",
+  "required": [
+    "company_profile",
+    "variables",
+    "transformation",
+    "opportunity_object"
+  ],
+
+  "properties": {
+
+    "company_profile": {
+      "type": "object",
+      "required": ["name", "industry", "annual_revenue_bracket", "geography", "core_product_or_service"],
+      "properties": {
+        "name": { "type": "string" },
+        "industry": { "type": "string" },
+        "annual_revenue_bracket": {
+          "type": "string",
+          "enum": ["under-5M", "5-10M", "10-25M", "25-50M", "50-100M", "100-500M", "500M+"]
+        },
+        "years_in_operation": { "type": "string" },
+        "geography": { "type": "string" },
+        "core_product_or_service": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "variables": {
+      "type": "object",
+      "description": "All variables normalized to 0.0–1.0. See variables.json for definitions.",
+      "required": [
+        "capability_distance",
+        "customer_overlap",
+        "asset_reusability",
+        "market_proximity",
+        "synergy_potential",
+        "scalability_index",
+        "strategic_optionality",
+        "friction_score",
+        "capital_intensity",
+        "time_to_viability",
+        "risk_exposure"
+      ],
+      "properties": {
+        "capability_distance":   { "type": "number", "minimum": 0, "maximum": 1 },
+        "customer_overlap":      { "type": "number", "minimum": 0, "maximum": 1 },
+        "asset_reusability":     { "type": "number", "minimum": 0, "maximum": 1 },
+        "market_proximity":      { "type": "number", "minimum": 0, "maximum": 1 },
+        "synergy_potential":     { "type": "number", "minimum": 0, "maximum": 1 },
+        "scalability_index":     { "type": "number", "minimum": 0, "maximum": 1 },
+        "strategic_optionality": { "type": "number", "minimum": 0, "maximum": 1 },
+        "friction_score":        { "type": "number", "minimum": 0, "maximum": 1 },
+        "capital_intensity":     { "type": "number", "minimum": 0, "maximum": 1 },
+        "time_to_viability":     { "type": "number", "minimum": 0, "maximum": 1 },
+        "risk_exposure":         { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+
+    "transformation": {
+      "type": "object",
+      "required": ["weighted_variables", "adjacency_score", "scenario_analysis"],
+      "properties": {
+        "weighted_variables": {
+          "type": "object",
+          "description": "Each variable multiplied by its weight. Negative weights apply to friction variables.",
+          "additionalProperties": { "type": "number" }
+        },
+        "adjacency_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Final composite score. Sum of all weighted variables, clamped to 0.0–1.0."
+        },
+        "verdict": {
+          "type": "string",
+          "enum": [
+            "Top adjacency",
+            "Strong adjacency",
+            "Moderate adjacency",
+            "Weak adjacency",
+            "Not recommended"
+          ]
+        },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "0–100. Reflects confidence in variable estimates. Below 60 flags for human review."
+        },
+        "scenario_analysis": {
+          "type": "object",
+          "required": ["base_case_summary", "optimistic_case_summary", "conservative_case_summary", "notes"],
+          "properties": {
+            "base_case_summary":         { "type": "string" },
+            "optimistic_case_summary":   { "type": "string" },
+            "conservative_case_summary": { "type": "string" },
+            "notes":                     { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "opportunity_object": {
+      "type": "object",
+      "required": [
+        "headline",
+        "signal",
+        "why_now",
+        "asset_advantage",
+        "adjacent_opportunity",
+        "revenue_upside",
+        "cost_of_waiting",
+        "buyer_profile",
+        "risk_flags",
+        "time_window",
+        "multiplier_dimension",
+        "entry_path_90_days",
+        "reasoning_signature"
+      ],
+      "properties": {
+
+        "headline": {
+          "type": "string",
+          "description": "One concise sentence describing the opportunity."
+        },
+
+        "signal": {
+          "type": "string",
+          "description": "The triggering event, pattern, or insight that surfaced the opportunity."
+        },
+
+        "why_now": {
+          "type": "string",
+          "description": "Time-sensitive rationale explaining why the opportunity window is open now."
+        },
+
+        "asset_advantage": {
+          "type": "string",
+          "description": "The specific underutilized assets that create an unfair advantage over new entrants."
+        },
+
+        "adjacent_opportunity": {
+          "type": "string",
+          "description": "The core adjacent market, product, or service being recommended."
+        },
+
+        "revenue_upside": {
+          "type": "object",
+          "properties": {
+            "qualitative_potential": {
+              "type": "string",
+              "enum": ["low", "moderate", "moderate_to_high", "high", "very_high"]
+            },
+            "revenue_bracket_directional": {
+              "type": "string",
+              "description": "Directional range only. Not a forecast. Example: '1-3M (directional only)'"
+            },
+            "assumptions_summary": {
+              "type": "string",
+              "description": "High-level assumptions. No specific numeric projections or guarantees."
+            }
+          }
+        },
+
+        "cost_of_waiting": {
+          "type": "string",
+          "description": "What the company loses by delaying action."
+        },
+
+        "buyer_profile": {
+          "type": "string",
+          "description": "The ideal buyer, customer, or operator who benefits most from this opportunity."
+        },
+
+        "risk_flags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Key risks or constraints that must be considered."
+        },
+
+        "time_window": {
+          "type": "object",
+          "properties": {
+            "urgency_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10
+            },
+            "window_opens":  { "type": "string" },
+            "window_closes": { "type": "string" },
+            "timing_notes":  { "type": "string" }
+          }
+        },
+
+        "multiplier_dimension": {
+          "type": "string",
+          "enum": [
+            "Asset Generation",
+            "Profitability Improvement",
+            "Higher Margin Opportunities",
+            "Quality Improvement",
+            "Product Advancement",
+            "Adjacent Market Expansion"
+          ]
+        },
+
+        "adjacency_archetype": {
+          "type": "string",
+          "enum": [
+            "MA-01: Monitoring & Analytics",
+            "PC-02: Preventative Care & Optimization",
+            "CD-03: Compliance & Documentation",
+            "SA-04: System-Adjacent Services"
+          ]
+        },
+
+        "entry_path_90_days": {
+          "type": "object",
+          "properties": {
+            "days_1_30":  { "type": "string" },
+            "days_31_60": { "type": "string" },
+            "days_61_90": { "type": "string" },
+            "disclaimer": {
+              "type": "string",
+              "default": "Exploratory operational steps only. Not financial, legal, or investment advice."
+            }
+          }
+        },
+
+        "reasoning_signature": {
+          "type": "object",
+          "required": [
+            "initial_signal",
+            "multiplier_dimension_sensed",
+            "non_obvious_connection",
+            "disqualifying_risks_checked",
+            "strongest_reason_it_works",
+            "transferable_lesson"
+          ],
+          "properties": {
+            "initial_signal":               { "type": "string" },
+            "multiplier_dimension_sensed":  { "type": "string" },
+            "non_obvious_connection":       { "type": "string" },
+            "disqualifying_risks_checked":  { "type": "string" },
+            "strongest_reason_it_works":    { "type": "string" },
+            "transferable_lesson":          { "type": "string" }
+          }
+        }
+
+      }
+    }
+  }
+}
