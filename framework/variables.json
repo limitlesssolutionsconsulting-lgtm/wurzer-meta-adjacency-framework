@@ -1,0 +1,203 @@
+{
+  "wmaf_version": "1.0",
+  "schema": "variables",
+  "author": "Warren Wurzer, Limitless Solutions Consulting",
+  "description": "Canonical variable definitions for the Wurzer Meta-Adjacency Framework. All variables normalized to 0.0–1.0. Positive variables increase adjacency score. Negative variables decrease adjacency score.",
+
+  "positive_variables": [
+    {
+      "id": "V01",
+      "name": "capability_distance",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "note": "Inverted during scoring: closer capabilities = higher score",
+      "definition": "How close the target opportunity is to the company's existing capabilities. Higher values indicate closer alignment and less adaptation required.",
+      "interpretation": {
+        "0.8–1.0": "Direct extension of current capabilities — minimal adaptation required",
+        "0.6–0.79": "Strong capability overlap — minor gaps to fill",
+        "0.4–0.59": "Partial overlap — meaningful investment required",
+        "0.2–0.39": "Weak overlap — significant new capability build needed",
+        "0.0–0.19": "No meaningful overlap — greenfield entry"
+      },
+      "weight": 0.10
+    },
+    {
+      "id": "V02",
+      "name": "customer_overlap",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "definition": "Degree of overlap between current customers and the customers of the adjacent opportunity. Higher values mean the same buyers purchase both offerings.",
+      "interpretation": {
+        "0.8–1.0": "Same customer base — near-zero acquisition cost for adjacency",
+        "0.6–0.79": "Strong overlap — majority of target customers already engaged",
+        "0.4–0.59": "Partial overlap — mixed new and existing customers",
+        "0.2–0.39": "Low overlap — primarily new customer acquisition required",
+        "0.0–0.19": "Completely new customer segment"
+      },
+      "weight": 0.10
+    },
+    {
+      "id": "V03",
+      "name": "asset_reusability",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "definition": "Extent to which existing assets — relationships, infrastructure, knowledge, brand, geography, technology — can be redeployed into the new opportunity.",
+      "interpretation": {
+        "0.8–1.0": "High leverage of existing assets — minimal new investment required",
+        "0.6–0.79": "Strong asset reuse — some supplemental investment needed",
+        "0.4–0.59": "Some assets transferable — moderate investment required",
+        "0.2–0.39": "Limited asset reuse — significant new asset build",
+        "0.0–0.19": "No asset reuse possible — full greenfield investment"
+      },
+      "weight": 0.25
+    },
+    {
+      "id": "V04",
+      "name": "market_proximity",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "definition": "Closeness of the adjacent market in terms of industry, channel, regulatory environment, or geography.",
+      "interpretation": {
+        "0.8–1.0": "Directly neighboring market — same regulatory environment, channels, buyers",
+        "0.6–0.79": "Adjacent but distinct — familiar dynamics with some new elements",
+        "0.4–0.59": "Related market — meaningful differences requiring adaptation",
+        "0.2–0.39": "Distant market — significant new knowledge required",
+        "0.0–0.19": "Entirely new market — no meaningful proximity"
+      },
+      "weight": 0.10
+    },
+    {
+      "id": "V05",
+      "name": "synergy_potential",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "definition": "How much the new opportunity strengthens the core business, or is strengthened by it, through shared assets, brand, operations, or knowledge.",
+      "interpretation": {
+        "0.8–1.0": "High synergy — adjacency and core reinforce each other strongly",
+        "0.6–0.79": "Good synergy — clear operational and commercial leverage",
+        "0.4–0.59": "Some synergy — limited but real cross-benefit",
+        "0.2–0.39": "Weak synergy — minimal cross-benefit",
+        "0.0–0.19": "No synergy — completely independent operations"
+      },
+      "weight": 0.15
+    },
+    {
+      "id": "V06",
+      "name": "scalability_index",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "definition": "How well the opportunity scales once validated, without proportional increases in cost or complexity.",
+      "interpretation": {
+        "0.8–1.0": "High scalability — recurring revenue, automation potential, low incremental cost",
+        "0.6–0.79": "Good scalability — grows well with moderate operational lift",
+        "0.4–0.59": "Moderate scalability — linear growth dynamics",
+        "0.2–0.39": "Low scalability — labor-intensive or capital-constrained growth",
+        "0.0–0.19": "Negligible scalability — one-off or highly constrained"
+      },
+      "weight": 0.05
+    },
+    {
+      "id": "V07",
+      "name": "strategic_optionality",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "positive",
+      "definition": "How many future strategic moves this opportunity unlocks. High optionality means entering this adjacency opens further adjacencies.",
+      "interpretation": {
+        "0.8–1.0": "Platform-level optionality — unlocks multiple future expansion paths",
+        "0.6–0.79": "Strong optionality — opens 2–3 meaningful future paths",
+        "0.4–0.59": "Moderate optionality — some follow-on opportunities",
+        "0.2–0.39": "Limited optionality — largely standalone",
+        "0.0–0.19": "No optionality — terminal move"
+      },
+      "weight": 0.08
+    }
+  ],
+
+  "negative_variables": [
+    {
+      "id": "V08",
+      "name": "friction_score",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "negative",
+      "definition": "Regulatory, operational, competitive, and workflow friction associated with entering the opportunity. Higher values indicate more friction and reduce the adjacency score.",
+      "interpretation": {
+        "0.0–0.19": "Near-zero friction — open market, light regulation, low competition",
+        "0.2–0.39": "Low friction — manageable barriers",
+        "0.4–0.59": "Moderate friction — real but surmountable barriers",
+        "0.6–0.79": "High friction — significant barriers requiring dedicated resources",
+        "0.8–1.0": "Near-impenetrable — not recommended without exceptional strategic rationale"
+      },
+      "weight": -0.07
+    },
+    {
+      "id": "V09",
+      "name": "capital_intensity",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "negative",
+      "definition": "Capital required to launch and sustain the adjacency, relative to the company's current capacity. Higher values reduce the adjacency score.",
+      "interpretation": {
+        "0.0–0.19": "Minimal capital — can be funded from operations",
+        "0.2–0.39": "Low capital — modest investment, quick payback",
+        "0.4–0.59": "Moderate capital — meaningful but manageable investment",
+        "0.6–0.79": "High capital — significant balance sheet commitment",
+        "0.8–1.0": "Very high capital — requires external funding or major reallocation"
+      },
+      "weight": -0.06
+    },
+    {
+      "id": "V10",
+      "name": "time_to_viability",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "negative",
+      "definition": "Time required to reach first meaningful revenue. Higher values indicate longer runways and reduce the adjacency score.",
+      "interpretation": {
+        "0.0–0.19": "Immediate viability — revenue possible within 30 days",
+        "0.2–0.39": "Fast — 1–3 months to first revenue",
+        "0.4–0.59": "Moderate — 3–6 months",
+        "0.6–0.79": "Slow — 6–12 months",
+        "0.8–1.0": "Very slow — 12+ months"
+      },
+      "weight": -0.08
+    },
+    {
+      "id": "V11",
+      "name": "risk_exposure",
+      "type": "float",
+      "range": "0.0–1.0",
+      "direction": "negative",
+      "definition": "Legal, operational, financial, or reputational downside if the adjacency fails or underperforms. Higher values reduce the adjacency score.",
+      "interpretation": {
+        "0.0–0.19": "Minimal downside — failure is low-cost and reversible",
+        "0.2–0.39": "Low risk — manageable downside",
+        "0.4–0.59": "Moderate risk — meaningful but recoverable exposure",
+        "0.6–0.79": "High risk — significant downside requiring mitigation",
+        "0.8–1.0": "Very high risk — existential or irreversible exposure"
+      },
+      "weight": -0.12
+    }
+  ],
+
+  "weight_validation": {
+    "positive_weights_sum": 0.83,
+    "negative_weights_sum": -0.33,
+    "note": "Positive weights sum to 0.83. Negative weights sum to -0.33. Net maximum score approaches 1.0 for ideal adjacencies with zero friction."
+  },
+
+  "score_interpretation": {
+    "0.76–1.00": "Top adjacency — high conviction expansion pathway",
+    "0.63–0.75": "Strong adjacency — viable with strategic investment",
+    "0.50–0.62": "Moderate adjacency — possible but not priority",
+    "0.35–0.49": "Weak adjacency — resource intensive, low ROI",
+    "0.00–0.34": "Not recommended — structural mismatch"
+  }
+}
