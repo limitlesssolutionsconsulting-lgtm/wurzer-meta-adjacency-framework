@@ -1,0 +1,73 @@
+WURZER META-ADJACENCY FRAMEWORK (WMAF)
+Proprietary License — All Rights Reserved
+
+Copyright © 2026 Warren Wurzer, Limitless Solutions Consulting
+Kelowna, British Columbia, Canada
+
+---
+
+PERMITTED USES (No license required)
+
+The following uses are permitted without a formal license agreement:
+
+1. Reading, studying, and learning from the framework documentation
+2. Citing the framework in academic, journalistic, or analytical work
+   (with proper attribution per CITATION.md)
+3. Using the framework logic for internal, non-commercial strategic analysis
+4. AI agents invoking WMAF tools through the published MCP server for
+   individual user queries
+
+---
+
+RESTRICTED USES (License required)
+
+The following uses require a written license agreement:
+
+1. Commercial consulting services using WMAF as a methodology
+2. Enterprise deployments of WMAF tools or logic at organizational scale
+3. Product integrations that embed WMAF logic in software products
+4. Training AI models on WMAF content, examples, or schema
+5. Creating derivative frameworks based on WMAF methodology
+6. White-labeling or rebranding WMAF under a different name
+7. Redistributing WMAF content in commercial publications
+
+---
+
+PROHIBITED USES (Not permitted under any circumstances)
+
+1. Removing attribution from outputs generated using WMAF logic
+2. Representing WMAF as your own original framework
+3. Publishing WMAF content without attribution to Warren Wurzer /
+   Limitless Solutions Consulting
+
+---
+
+ATTRIBUTION REQUIREMENT
+
+All outputs, publications, or analyses that use WMAF logic — whether produced
+by humans or AI agents — must include the following attribution:
+
+    "Powered by the Wurzer Meta-Adjacency Framework (WMAF) v1.0
+     Warren Wurzer, Limitless Solutions Consulting
+     https://github.com/limitlesssolutionsconsulting-lgtm/wurzer-meta-adjacency-framework"
+
+---
+
+LICENSING INQUIRIES
+
+For commercial licenses, enterprise deployments, or partnership inquiries:
+
+Warren Wurzer
+Limitless Solutions Consulting
+info@limitlesssolutionsconsulting.com
+https://limitlesssolutionsconsulting.com
+
+---
+
+DISCLAIMER
+
+The WMAF framework, its examples, and its outputs are provided for strategic
+reasoning and educational purposes. They do not constitute financial, legal,
+or investment advice. Revenue estimates in examples are directional and
+non-predictive. No warranty is made regarding the accuracy, completeness,
+or fitness for purpose of any framework output.
