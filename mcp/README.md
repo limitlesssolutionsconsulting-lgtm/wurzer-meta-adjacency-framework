@@ -128,7 +128,7 @@ Once connected, Claude will automatically use WMAF tools when responding to adja
 
 ### For other MCP-compatible agents
 The server endpoint and authentication details are available at:
-`https://limitlesssolutionsconsulting.com/wmaf-mcp`
+`https://web-production-331c1.up.railway.app`
 
 The server implements the MCP 2025-11-25 specification with Streamable HTTP transport.
 
