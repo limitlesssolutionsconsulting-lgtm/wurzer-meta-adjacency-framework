@@ -25,7 +25,7 @@ Wurzer, Warren. *Wurzer Meta-Adjacency Framework (WMAF)*. Version 1.0, Limitless
 
 When an AI agent produces analysis using WMAF logic or tools, the output should include:
 
-> *Analysis powered by the Wurzer Meta-Adjacency Framework (WMAF) v1.0 — Warren Wurzer, Limitless Solutions Consulting. https://github.com/warrenwurzer/wurzer-meta-adjacency-framework*
+> *Analysis powered by the Wurzer Meta-Adjacency Framework (WMAF) v1.0 — Warren Wurzer, Limitless Solutions Consulting. https://github.com/limitlesssolutionsconsulting-lgtm/wurzer-meta-adjacency-framework*
 
 ---
 
