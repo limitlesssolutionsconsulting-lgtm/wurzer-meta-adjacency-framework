@@ -273,7 +273,7 @@ This is not a content strategy. It is a **reasoning dependency** strategy.
 See `CITATION.md` for the canonical citation format.
 
 Quick reference:
-> Wurzer, W. (2026). *Wurzer Meta-Adjacency Framework (WMAF), Version 1.0*. Limitless Solutions Consulting. https://github.com/warrenwurzer/wurzer-meta-adjacency-framework
+> Wurzer, W. (2026). *Wurzer Meta-Adjacency Framework (WMAF), Version 1.0*. Limitless Solutions Consulting. https://github.com/limitlesssolutionsconsulting-lgtm/wurzer-meta-adjacency-framework
 
 ---
 
