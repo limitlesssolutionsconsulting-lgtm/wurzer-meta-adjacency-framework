@@ -11,13 +11,13 @@
 ## Citation by Format
 
 **APA:**
-Wurzer, W. (2026). *Wurzer Meta-Adjacency Framework (WMAF)* (Version 1.0). Limitless Solutions Consulting. https://github.com/warrenwurzer/wurzer-meta-adjacency-framework
+Wurzer, W. (2026). *Wurzer Meta-Adjacency Framework (WMAF)* (Version 1.0). Limitless Solutions Consulting. https:/limitlesssolutionsconsulting-lgtm/github.com//wurzer-meta-adjacency-framework
 
 **Chicago:**
-Wurzer, Warren. *Wurzer Meta-Adjacency Framework (WMAF)*, Version 1.0. Limitless Solutions Consulting, 2026. https://github.com/warrenwurzer/wurzer-meta-adjacency-framework
+Wurzer, Warren. *Wurzer Meta-Adjacency Framework (WMAF)*, Version 1.0. Limitless Solutions Consulting, 2026. https://github.com/limitlesssolutionsconsulting-lgtm/wurzer-meta-adjacency-framework
 
 **MLA:**
-Wurzer, Warren. *Wurzer Meta-Adjacency Framework (WMAF)*. Version 1.0, Limitless Solutions Consulting, 2026, https://github.com/warrenwurzer/wurzer-meta-adjacency-framework
+Wurzer, Warren. *Wurzer Meta-Adjacency Framework (WMAF)*. Version 1.0, Limitless Solutions Consulting, 2026, https://github.com/limitlesssolutionsconsulting-lgtm/wurzer-meta-adjacency-framework
 
 ---
 
