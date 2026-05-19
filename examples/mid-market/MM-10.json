@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-10",
+  "company_profile": {
+    "name": "Sentinel Guard Services",
+    "industry": "Commercial Security Services",
+    "annual_revenue_bracket": "6-18M",
+    "years_in_operation": "12 years",
+    "geography": "British Columbia, Canada",
+    "core_product_or_service": "Manned security guarding, mobile patrol, and access control for commercial, retail, and industrial clients",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.88,
+    "customer_overlap":      0.94,
+    "asset_reusability":     0.85,
+    "market_proximity":      0.88,
+    "synergy_potential":     0.84,
+    "scalability_index":     0.58,
+    "strategic_optionality": 0.65,
+    "friction_score":        0.20,
+    "capital_intensity":     0.16,
+    "time_to_viability":     0.18,
+    "risk_exposure":         0.25
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.088,
+      "customer_overlap":      0.094,
+      "asset_reusability":     0.212,
+      "market_proximity":      0.088,
+      "synergy_potential":     0.126,
+      "scalability_index":     0.029,
+      "strategic_optionality": 0.052,
+      "friction_score":       -0.014,
+      "capital_intensity":    -0.010,
+      "time_to_viability":    -0.014,
+      "risk_exposure":        -0.030
+    },
+    "adjacency_score": 0.622,
+    "verdict": "Moderate adjacency",
+    "confidence_score": 76,
+    "scenario_analysis": {
+      "base_case_summary": "Existing clients adopt risk and safety reporting subscriptions to satisfy insurance requirements and document duty-of-care obligations.",
+      "optimistic_case_summary": "Workplace safety legislation and insurance carrier requirements expand documentation obligations, making structured incident and risk reporting a contractual necessity.",
+      "conservative_case_summary": "Adoption driven by retail and industrial clients with highest liability exposure, generating meaningful recurring revenue with Sentinel's existing patrol infrastructure.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch site risk assessment and safety documentation subscriptions for existing clients, formalizing observations Sentinel guards already make on every shift.",
+    "signal": "Guards regularly observe and report safety hazards, access control gaps, and facility risks that clients log informally or ignore entirely. Insurance claims and liability incidents at client sites frequently involve conditions guards had previously flagged.",
+    "why_now": "Insurance carriers are tightening commercial property and liability underwriting requirements. Clients face increasing duty-of-care obligations. Documented safety observation programs reduce insurance premiums and liability exposure.",
+    "asset_advantage": "Sentinel guards are present at client sites around the clock in many cases — more continuously than any other vendor or the client's own management. Their observation frequency and access is unmatched.",
+    "adjacent_opportunity": "Site risk and safety documentation subscriptions: structured hazard observation reports, monthly site risk summaries, incident documentation packages, and insurance-ready safety audit reports packaged as a subscription add-on to existing guard contracts.",
+    "revenue_upside": {
+      "qualitative_potential": "moderate",
+      "revenue_bracket_directional": "500K-1.5M (directional only)",
+      "assumptions_summary": "Based on typical safety documentation pricing and addressable client base among commercial and industrial guard contract accounts. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "Risk management consultants and safety software platforms are selling documentation tools directly to property managers and safety officers. Once those relationships are established, Sentinel's observation advantage is supplanted by third-party assessors.",
+    "buyer_profile": "Property managers, safety officers, operations managers, and risk managers at retail, commercial, and industrial clients with liability exposure or insurance documentation requirements.",
+    "risk_flags": [
+      "Guard training required to conduct structured observations consistently — quality depends on individual performance",
+      "Liability exposure if a documented hazard is not remediated by the client — must define Sentinel's role clearly",
+      "Report standardization requires investment in templates and QA process across all sites",
+      "Regulatory scope varies — safety documentation requirements differ by industry and province"
+    ],
+    "time_window": {
+      "urgency_level": 6,
+      "window_opens": "Immediate",
+      "window_closes": "24-36 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Product Advancement",
+    "adjacency_archetype": "PC-02: Preventative Care & Optimization",
+    "entry_path_90_days": {
+      "days_1_30": "Design structured observation checklist and incident documentation template. Identify 5 clients with highest liability exposure or insurance documentation pressure as pilots.",
+      "days_31_60": "Train site supervisors on structured observation protocol. Pilot monthly risk reports with 5 clients. Track time required and client response.",
+      "days_61_90": "Price safety documentation subscription as add-on to guard contract. Develop insurance premium reduction case study from pilot. Roll out to full client base.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Guards observing and informally flagging safety hazards that later appeared in insurance claims — value was being delivered informally on every shift without any billing structure.",
+      "multiplier_dimension_sensed": "Product Advancement — the observation capability and site access are already in place. The gap is formalization, documentation, and delivery.",
+      "non_obvious_connection": "Security companies are not thought of as risk documentation businesses. But guards are the most continuous observers of client site conditions of any vendor in the relationship. Their observation data has insurance and liability value that is never monetized.",
+      "disqualifying_risks_checked": "Training consistency and regulatory variation across provinces create real friction. The score reflects that this path, while viable, requires operational investment and careful scope management before it becomes a clean recurring revenue line.",
+      "strongest_reason_it_works": "Sentinel guards are at client sites continuously. No risk consultant, inspector, or safety officer has comparable access frequency. The observation asset is built into the existing contract.",
+      "transferable_lesson": "Service companies with continuous physical presence at client sites generate safety and risk intelligence as a byproduct of their core service. Formalizing that intelligence into a documentation subscription is viable — but staff consistency and scope clarity are prerequisites, not afterthoughts."
+    }
+  }
+}

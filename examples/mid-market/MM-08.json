@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-08",
+  "company_profile": {
+    "name": "Vantage Facility Services",
+    "industry": "Commercial Cleaning & Facility Maintenance",
+    "annual_revenue_bracket": "8-20M",
+    "years_in_operation": "16 years",
+    "geography": "Ontario, Canada",
+    "core_product_or_service": "Commercial cleaning, janitorial services, and basic facility maintenance for office, retail, and healthcare-adjacent clients",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.88,
+    "customer_overlap":      0.96,
+    "asset_reusability":     0.85,
+    "market_proximity":      0.90,
+    "synergy_potential":     0.85,
+    "scalability_index":     0.60,
+    "strategic_optionality": 0.62,
+    "friction_score":        0.18,
+    "capital_intensity":     0.15,
+    "time_to_viability":     0.15,
+    "risk_exposure":         0.22
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.088,
+      "customer_overlap":      0.096,
+      "asset_reusability":     0.212,
+      "market_proximity":      0.090,
+      "synergy_potential":     0.128,
+      "scalability_index":     0.030,
+      "strategic_optionality": 0.050,
+      "friction_score":       -0.013,
+      "capital_intensity":    -0.009,
+      "time_to_viability":    -0.012,
+      "risk_exposure":        -0.026
+    },
+    "adjacency_score": 0.634,
+    "verdict": "Strong adjacency",
+    "confidence_score": 79,
+    "scenario_analysis": {
+      "base_case_summary": "Existing clients adopt facility health monitoring subscriptions to reduce reactive maintenance costs and satisfy building management reporting requirements.",
+      "optimistic_case_summary": "Indoor air quality and facility wellness standards become mandatory for healthcare-adjacent and office clients, creating contractual demand for documented monitoring services.",
+      "conservative_case_summary": "Adoption driven by a subset of clients with highest facility management overhead, but generates meaningful recurring revenue with near-zero incremental cost per client.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch facility health monitoring and proactive maintenance reporting subscriptions for existing clients using observations Vantage staff already make on every visit.",
+    "signal": "Vantage cleaning staff regularly observe and informally report facility issues — burnt-out lights, leaking fixtures, HVAC vents, worn flooring — that clients later pay emergency rates to fix. None of this is formally tracked or billed.",
+    "why_now": "Building owners and property managers face increasing pressure to document facility conditions for insurance, liability, and tenant satisfaction. The information Vantage generates on every visit has never been formalized.",
+    "asset_advantage": "Vantage staff are in client facilities more frequently than any other vendor — often daily. No property manager, inspector, or consultant has equivalent access and frequency. The observation asset is unmatched.",
+    "adjacent_opportunity": "Facility health monitoring: structured inspection checklists completed on each visit, monthly facility condition reports, proactive issue alerts, and minor maintenance coordination packaged as a subscription add-on to existing cleaning contracts.",
+    "revenue_upside": {
+      "qualitative_potential": "moderate-high",
+      "revenue_bracket_directional": "600K-1.8M (directional only)",
+      "assumptions_summary": "Based on typical facility monitoring pricing and adoption patterns among commercial property clients. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "Property management software platforms are selling facility inspection tools directly to building managers. Once clients adopt self-managed inspection workflows, Vantage's observation advantage is replaced by a software subscription.",
+    "buyer_profile": "Property managers, building owners, and facilities directors managing multi-tenant office, retail, or healthcare-adjacent properties where deferred maintenance creates liability or tenant retention risk.",
+    "risk_flags": [
+      "Staff training required to conduct structured inspections consistently across all sites",
+      "Liability exposure if a reported issue is not acted on by the client — must define Vantage's role clearly",
+      "Report quality depends on staff consistency — requires standardized checklists and QA process",
+      "Scope creep risk — clients may expect Vantage to fix issues they only agreed to report"
+    ],
+    "time_window": {
+      "urgency_level": 6,
+      "window_opens": "Immediate",
+      "window_closes": "24-36 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Product Advancement",
+    "adjacency_archetype": "PC-02: Preventative Care & Optimization",
+    "entry_path_90_days": {
+      "days_1_30": "Design standard facility inspection checklist. Identify 5 clients where informal reporting is already happening. Train site supervisors on structured observation protocol.",
+      "days_31_60": "Pilot monthly facility reports with 5 clients. Track time required per site. Refine checklist based on what clients find most useful.",
+      "days_61_90": "Price facility monitoring subscription as add-on to cleaning contract. Launch to full client base with standard sales conversation. Build report template for consistent delivery.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Staff informally reporting facility issues that clients later paid emergency rates to fix — value was being delivered for free with every cleaning visit.",
+      "multiplier_dimension_sensed": "Product Advancement — the observation capability already exists. The gap is formalization and billing.",
+      "non_obvious_connection": "Cleaning companies are not thought of as facility intelligence businesses. But their staff have higher access frequency than any other vendor. The observation asset is more valuable than the cleaning service in some client relationships.",
+      "disqualifying_risks_checked": "Capital intensity is near-zero — checklist and report template development is a one-time cost. Liability is manageable with clear scope. Primary investment is staff training.",
+      "strongest_reason_it_works": "Vantage staff are in client facilities more often than the client's own management team in some cases. No competitor can replicate that access frequency without a cleaning contract.",
+      "transferable_lesson": "Service companies with high-frequency physical access to client facilities generate facility intelligence as a byproduct of their core service. Formalizing that intelligence as a structured report converts an informal value-add into a billable subscription."
+    }
+  }
+}

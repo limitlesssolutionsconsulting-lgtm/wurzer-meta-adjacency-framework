@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-09",
+  "company_profile": {
+    "name": "Crestline Equipment Group",
+    "industry": "Industrial Equipment Sales & Service",
+    "annual_revenue_bracket": "25-75M",
+    "years_in_operation": "26 years",
+    "geography": "Alberta, Canada",
+    "core_product_or_service": "Heavy industrial equipment sales, parts supply, and field service for oil and gas, mining, and construction clients",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.85,
+    "customer_overlap":      0.90,
+    "asset_reusability":     0.88,
+    "market_proximity":      0.85,
+    "synergy_potential":     0.88,
+    "scalability_index":     0.62,
+    "strategic_optionality": 0.75,
+    "friction_score":        0.22,
+    "capital_intensity":     0.25,
+    "time_to_viability":     0.28,
+    "risk_exposure":         0.28
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.085,
+      "customer_overlap":      0.090,
+      "asset_reusability":     0.220,
+      "market_proximity":      0.085,
+      "synergy_potential":     0.132,
+      "scalability_index":     0.031,
+      "strategic_optionality": 0.060,
+      "friction_score":       -0.015,
+      "capital_intensity":    -0.015,
+      "time_to_viability":    -0.022,
+      "risk_exposure":        -0.034
+    },
+    "adjacency_score": 0.617,
+    "verdict": "Moderate adjacency",
+    "confidence_score": 74,
+    "scenario_analysis": {
+      "base_case_summary": "Existing clients adopt equipment lifecycle management subscriptions to reduce unplanned downtime and satisfy maintenance documentation requirements for insurance and regulatory purposes.",
+      "optimistic_case_summary": "Oil and gas clients face mandatory equipment integrity documentation requirements, making lifecycle management a contractual necessity rather than an optional service.",
+      "conservative_case_summary": "Adoption concentrated among largest clients with highest downtime cost exposure, but generates meaningful recurring revenue with Crestline's existing field service infrastructure.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch equipment lifecycle management and predictive maintenance subscriptions for existing clients, moving one layer up the value chain from parts and repair to operational continuity.",
+    "signal": "Clients calling for emergency field service and parts that Crestline's service history data would have predicted. Crestline technicians carry institutional knowledge of each client's fleet condition that is never formally captured or monetized.",
+    "why_now": "Unplanned equipment downtime in oil and gas and mining carries costs that dwarf maintenance subscription fees. Clients are increasingly willing to pay for downtime prevention rather than reactive repair.",
+    "asset_advantage": "Crestline has 26 years of service history across its client base — equipment age, failure patterns, parts cycles, and operational context that no competitor or new entrant can replicate. That data is the foundation of a predictive maintenance offering.",
+    "adjacent_opportunity": "Equipment lifecycle management subscriptions: scheduled inspection programs, predictive parts replacement recommendations, equipment health scoring, and fleet condition reporting packaged as an annual subscription with monthly touchpoints.",
+    "revenue_upside": {
+      "qualitative_potential": "high",
+      "revenue_bracket_directional": "2-6M (directional only)",
+      "assumptions_summary": "Based on typical lifecycle management pricing in industrial equipment sectors and addressable fleet size among existing clients. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "OEM manufacturers are launching their own lifecycle management programs directly to end users. Once clients enroll in OEM programs, Crestline's institutional knowledge advantage is bypassed in favor of manufacturer-direct relationships.",
+    "buyer_profile": "Operations managers, maintenance superintendents, and plant managers at oil and gas, mining, and construction clients where equipment downtime carries significant production cost.",
+    "risk_flags": [
+      "Predictive maintenance recommendations carry liability if equipment fails after a clean assessment — scope must be defined carefully",
+      "Field service capacity constraints — lifecycle program requires scheduled visits that compete with reactive service calls",
+      "Data capture requires systematic service documentation that may not currently be consistent across all technicians",
+      "OEM competition — manufacturers have direct data access that Crestline must match with service history depth"
+    ],
+    "time_window": {
+      "urgency_level": 7,
+      "window_opens": "Immediate",
+      "window_closes": "18-30 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Higher Margin Opportunities",
+    "adjacency_archetype": "SA-04: System-Adjacent Services",
+    "entry_path_90_days": {
+      "days_1_30": "Audit existing service history data — what equipment data does Crestline already have per client? Identify 5 clients with highest emergency service frequency as pilot candidates.",
+      "days_31_60": "Design lifecycle management program structure. Build equipment health scoring model based on service history. Pilot with 3 clients — present findings and subscription pricing.",
+      "days_61_90": "Refine program based on pilot feedback. Develop standard lifecycle assessment report. Launch subscription offering to top 20 clients by fleet size.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Emergency service calls that service history data would have predicted — the knowledge existed in technician memory and service records, but was never organized into a proactive offering.",
+      "multiplier_dimension_sensed": "Higher Margin Opportunities — lifecycle management carries better economics than parts and repair. Moving up the value chain to operational continuity changes the buyer conversation from cost to risk.",
+      "non_obvious_connection": "Equipment dealers are not thought of as data businesses. But 26 years of service history across a regional client base is a proprietary dataset that no OEM or competitor can replicate without the same relationship history.",
+      "disqualifying_risks_checked": "Capital intensity and time-to-viability are both moderate — program development, systematic data capture, and OEM competitive pressure reduce the score meaningfully. This is a viable but not frictionless path.",
+      "strongest_reason_it_works": "Crestline's service history is irreplaceable. An OEM knows their equipment generically. Crestline knows this client's specific machine, in this environment, operated by this team, with this maintenance history. That specificity is the product.",
+      "transferable_lesson": "Equipment dealers and service companies accumulate institutional knowledge about client assets over years of relationship. Organizing that knowledge into a structured lifecycle program moves the company up the value chain — but the capital and time requirements are real and must be planned for."
+    }
+  }
+}

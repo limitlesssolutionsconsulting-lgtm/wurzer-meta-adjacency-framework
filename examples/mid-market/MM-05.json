@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-05",
+  "company_profile": {
+    "name": "PeakAir Mechanical",
+    "industry": "Commercial HVAC Services",
+    "annual_revenue_bracket": "5-15M",
+    "years_in_operation": "14 years",
+    "geography": "Pacific Northwest USA",
+    "core_product_or_service": "Commercial HVAC installation, maintenance contracts, and emergency repair for office buildings, retail, and light industrial facilities",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.90,
+    "customer_overlap":      0.95,
+    "asset_reusability":     0.92,
+    "market_proximity":      0.90,
+    "synergy_potential":     0.88,
+    "scalability_index":     0.72,
+    "strategic_optionality": 0.65,
+    "friction_score":        0.15,
+    "capital_intensity":     0.22,
+    "time_to_viability":     0.18,
+    "risk_exposure":         0.20
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.090,
+      "customer_overlap":      0.095,
+      "asset_reusability":     0.230,
+      "market_proximity":      0.090,
+      "synergy_potential":     0.132,
+      "scalability_index":     0.036,
+      "strategic_optionality": 0.052,
+      "friction_score":       -0.011,
+      "capital_intensity":    -0.013,
+      "time_to_viability":    -0.014,
+      "risk_exposure":        -0.024
+    },
+    "adjacency_score": 0.663,
+    "verdict": "Strong adjacency",
+    "confidence_score": 84,
+    "scenario_analysis": {
+      "base_case_summary": "Existing maintenance contract clients adopt remote monitoring subscriptions at moderate rates, driven by energy cost concerns and equipment downtime avoidance.",
+      "optimistic_case_summary": "Energy efficiency mandates and ESG reporting requirements accelerate adoption. Monitoring data becomes a compliance asset for commercial property owners.",
+      "conservative_case_summary": "Adoption is slower among price-sensitive clients, but anchor clients in healthcare and hospitality generate sufficient recurring revenue to justify the platform investment.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch remote HVAC monitoring and predictive maintenance subscriptions for existing commercial maintenance contract clients.",
+    "signal": "Clients calling after hours for emergency repairs that sensor data would have predicted 2-4 weeks in advance. PeakAir technicians frequently note equipment patterns during routine visits that are never formally tracked.",
+    "why_now": "IoT sensor costs have dropped significantly. Building owners face increasing pressure on energy efficiency and equipment uptime. Insurance carriers are beginning to require documented maintenance records for commercial property coverage.",
+    "asset_advantage": "PeakAir already has access to client mechanical rooms, established trust with facility managers, and institutional knowledge of each building's equipment history. A new entrant would need 12-18 months to build equivalent access and trust.",
+    "adjacent_opportunity": "Remote monitoring subscriptions: IoT sensors on critical HVAC equipment, real-time dashboards for facility managers, predictive maintenance alerts, and monthly performance reports packaged as a recurring add-on to existing maintenance contracts.",
+    "revenue_upside": {
+      "qualitative_potential": "high",
+      "revenue_bracket_directional": "800K-2M (directional only)",
+      "assumptions_summary": "Based on typical sensor subscription pricing and adoption patterns among commercial facility operators. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "Building automation vendors and PropTech startups are actively targeting commercial facility managers with monitoring platforms. Once those relationships are established, PeakAir becomes a break-fix vendor rather than a strategic building partner.",
+    "buyer_profile": "Commercial property managers, facility directors, and building owners in office, retail, hospitality, and healthcare-adjacent sectors managing 5+ HVAC units.",
+    "risk_flags": [
+      "Upfront sensor hardware cost requires capital allocation or financing model",
+      "Staff require training on monitoring platform and alert triage",
+      "Data liability — must define scope of what PeakAir is and is not responsible for monitoring",
+      "Platform vendor dependency — choose monitoring software carefully to avoid lock-in"
+    ],
+    "time_window": {
+      "urgency_level": 7,
+      "window_opens": "Immediate",
+      "window_closes": "18-30 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Asset Generation",
+    "adjacency_archetype": "MA-01: Monitoring & Analytics",
+    "entry_path_90_days": {
+      "days_1_30": "Select monitoring platform. Identify 5 existing maintenance clients with highest emergency call frequency as pilot candidates. Define sensor placement protocol for standard commercial HVAC configurations.",
+      "days_31_60": "Install sensors at 3-5 pilot sites. Build basic dashboard and alert workflow. Train lead technicians on platform and alert response.",
+      "days_61_90": "Present pilot results to clients. Price monthly subscription as add-on to existing maintenance contract. Develop standard sales conversation for rollout to full client base.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Emergency after-hours calls that sensor data would have predicted — PeakAir technicians already knew which equipment was trending toward failure but had no system to act on that knowledge proactively.",
+      "multiplier_dimension_sensed": "Asset Generation — the institutional knowledge and physical access PeakAir already has is worth more than the sensor hardware. The asset being monetized is trust and access, not technology.",
+      "non_obvious_connection": "HVAC companies are not thought of as data businesses. But every maintenance visit generates equipment performance data that currently lives in technician memory rather than a system. The monitoring platform just formalizes what technicians already know.",
+      "disqualifying_risks_checked": "Capital intensity is moderate but manageable — sensor hardware can be financed through subscription pricing. Liability is containable with clear service agreement language. No regulatory barriers.",
+      "strongest_reason_it_works": "PeakAir already has physical access to the mechanical rooms, trusted relationships with facility managers, and years of institutional knowledge about each building's equipment. No competitor can replicate that starting position without years of relationship-building.",
+      "transferable_lesson": "Service companies with recurring physical access to client facilities and equipment can add monitoring layers on top of existing relationships with minimal customer acquisition cost. The data layer is new. The access and trust are not."
+    }
+  }
+}

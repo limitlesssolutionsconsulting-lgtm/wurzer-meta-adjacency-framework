@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-06",
+  "company_profile": {
+    "name": "Meridian Waste Solutions",
+    "industry": "Commercial Waste Management",
+    "annual_revenue_bracket": "15-40M",
+    "years_in_operation": "18 years",
+    "geography": "Southeast USA",
+    "core_product_or_service": "Commercial waste collection, recycling, and disposal services for industrial, healthcare, and municipal clients",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.88,
+    "customer_overlap":      0.92,
+    "asset_reusability":     0.90,
+    "market_proximity":      0.88,
+    "synergy_potential":     0.84,
+    "scalability_index":     0.65,
+    "strategic_optionality": 0.68,
+    "friction_score":        0.22,
+    "capital_intensity":     0.12,
+    "time_to_viability":     0.18,
+    "risk_exposure":         0.28
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.088,
+      "customer_overlap":      0.092,
+      "asset_reusability":     0.225,
+      "market_proximity":      0.088,
+      "synergy_potential":     0.126,
+      "scalability_index":     0.033,
+      "strategic_optionality": 0.054,
+      "friction_score":       -0.015,
+      "capital_intensity":    -0.007,
+      "time_to_viability":    -0.014,
+      "risk_exposure":        -0.034
+    },
+    "adjacency_score": 0.635,
+    "verdict": "Strong adjacency",
+    "confidence_score": 78,
+    "scenario_analysis": {
+      "base_case_summary": "Healthcare and industrial clients adopt waste compliance documentation packages to satisfy state environmental agency requirements and accreditation standards.",
+      "optimistic_case_summary": "Federal environmental reporting requirements expand, creating mandatory documentation obligations across Meridian's entire industrial client base.",
+      "conservative_case_summary": "Adoption concentrated among regulated industries only, but sufficient to create a meaningful recurring revenue stream with low incremental cost.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch waste compliance documentation and reporting services for existing healthcare and industrial clients facing environmental audit and accreditation requirements.",
+    "signal": "Healthcare and industrial clients requesting manifests, chain-of-custody records, and disposal certificates that Meridian generates internally but does not package or deliver as a managed service.",
+    "why_now": "State environmental agencies are increasing audit frequency. Healthcare accreditation bodies require documented waste disposal records. Industrial clients face ESG reporting pressure requiring waste stream data.",
+    "asset_advantage": "Meridian already generates the documentation these clients need — manifests, weight tickets, disposal certificates, and chain-of-custody records. The data exists. Packaging and delivering it as a managed service requires no new data collection.",
+    "adjacent_opportunity": "Waste Compliance-as-a-Service: monthly compliance reports, audit-ready documentation packages, chain-of-custody tracking, and regulatory submission support packaged as a subscription add-on to existing collection contracts.",
+    "revenue_upside": {
+      "qualitative_potential": "high",
+      "revenue_bracket_directional": "1.5-4M (directional only)",
+      "assumptions_summary": "Based on typical compliance documentation pricing and addressable client base in regulated industries. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "Environmental compliance SaaS vendors are targeting waste generators directly with self-service documentation platforms. Once clients adopt those tools, Meridian's documentation advantage is commoditized.",
+    "buyer_profile": "Environmental health and safety managers, compliance officers, and operations directors at healthcare facilities, manufacturing plants, and industrial clients generating regulated waste streams.",
+    "risk_flags": [
+      "Regulatory scope varies by state — service must be calibrated to local requirements",
+      "Liability exposure if documentation errors create compliance failures for clients — scope must be clearly defined",
+      "Staff require training on compliance reporting formats and regulatory submission processes",
+      "Framework evolution — environmental regulations change and service requires ongoing maintenance"
+    ],
+    "time_window": {
+      "urgency_level": 7,
+      "window_opens": "Immediate",
+      "window_closes": "18-24 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Adjacent Market Expansion",
+    "adjacency_archetype": "CD-03: Compliance & Documentation",
+    "entry_path_90_days": {
+      "days_1_30": "Audit existing documentation output — identify what Meridian already generates that clients need for compliance. Map top 20 regulated clients to their specific documentation requirements.",
+      "days_31_60": "Build standardized compliance report templates. Pilot documentation packages with 5 healthcare clients most exposed to accreditation requirements.",
+      "days_61_90": "Launch subscription documentation service. Price as monthly add-on to existing collection contracts. Develop standard compliance conversation for sales team.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Clients requesting documentation Meridian already generates — the ask was not for new capability, it was for packaging existing output in a usable format.",
+      "multiplier_dimension_sensed": "Adjacent Market Expansion — compliance archetype. The data was already being collected. The monetization gap was packaging, not production.",
+      "non_obvious_connection": "Waste companies are not thought of as compliance businesses. But every regulated disposal generates a paper trail that compliance frameworks require. Meridian already owns that paper trail.",
+      "disqualifying_risks_checked": "Capital intensity is near-zero — no new infrastructure or data collection required. Regulatory liability is containable with clear scope definition. Primary investment is staff training and template development.",
+      "strongest_reason_it_works": "Meridian already possesses the documentation that clients need for compliance audits. An outside compliance firm cannot produce those records — only the waste hauler can. The competitive moat is the data itself.",
+      "transferable_lesson": "Companies operating in regulated industries often generate compliance-relevant data as a byproduct of normal operations. Packaging that data as a managed service converts an operational byproduct into a recurring revenue line with near-zero incremental cost."
+    }
+  }
+}

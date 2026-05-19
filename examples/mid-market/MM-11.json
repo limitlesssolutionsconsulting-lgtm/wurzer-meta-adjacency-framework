@@ -1,0 +1,92 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-11",
+  "company_profile": {
+    "name": "Greenmark Commercial Landscapes",
+    "industry": "Commercial Landscaping & Grounds Maintenance",
+    "annual_revenue_bracket": "5-12M",
+    "years_in_operation": "9 years",
+    "geography": "British Columbia, Canada",
+    "core_product_or_service": "Commercial grounds maintenance, seasonal landscaping, and irrigation management for strata, municipal, and commercial property clients",
+    "notes": "All company details are fictional and for illustrative purposes only."
+  },
+  "variables": {
+    "capability_distance":   0.84,
+    "customer_overlap":      0.92,
+    "asset_reusability":     0.82,
+    "market_proximity":      0.85,
+    "synergy_potential":     0.80,
+    "scalability_index":     0.55,
+    "strategic_optionality": 0.58,
+    "friction_score":        0.18,
+    "capital_intensity":     0.12,
+    "time_to_viability":     0.15,
+    "risk_exposure":         0.22
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.084,
+      "customer_overlap":      0.092,
+      "asset_reusability":     0.205,
+      "market_proximity":      0.085,
+      "synergy_potential":     0.120,
+      "scalability_index":     0.028,
+      "strategic_optionality": 0.046,
+      "friction_score":       -0.013,
+      "capital_intensity":    -0.007,
+      "time_to_viability":    -0.012,
+      "risk_exposure":        -0.026
+    },
+    "adjacency_score": 0.602,
+    "verdict": "Moderate adjacency",
+    "confidence_score": 72,
+    "scenario_analysis": {
+      "base_case_summary": "Strata and municipal clients adopt grounds condition documentation packages to satisfy strata bylaw requirements and municipal contract reporting obligations.",
+      "optimistic_case_summary": "Water use reporting requirements and stormwater management regulations expand documentation obligations across Greenmark's full commercial client base.",
+      "conservative_case_summary": "Adoption concentrated among strata clients with highest bylaw compliance pressure, generating moderate recurring revenue with existing visit infrastructure.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Launch grounds condition reporting and irrigation compliance documentation subscriptions for existing strata and municipal clients facing bylaw and contract reporting requirements.",
+    "signal": "Strata councils and municipal clients requesting written confirmation of work completed, grounds condition assessments, and irrigation usage records that Greenmark generates operationally but does not deliver as a structured report.",
+    "why_now": "Strata bylaws increasingly require documented grounds maintenance records for council meetings and owner reporting. Municipal contracts require performance documentation. Water use reporting requirements are expanding in BC.",
+    "asset_advantage": "Greenmark crews visit client sites on scheduled cycles and observe grounds conditions more systematically than any property manager or council member. They already track work completed, materials used, and irrigation runtime — data that clients need but cannot produce themselves.",
+    "adjacent_opportunity": "Grounds compliance documentation: monthly condition reports, irrigation usage summaries, seasonal assessment records, and strata-ready documentation packages delivered as a subscription add-on to existing maintenance contracts.",
+    "revenue_upside": {
+      "qualitative_potential": "moderate",
+      "revenue_bracket_directional": "300K-900K (directional only)",
+      "assumptions_summary": "Based on typical grounds reporting pricing and addressable client base among strata and municipal accounts. Directional only — not a forecast."
+    },
+    "cost_of_waiting": "Property management software platforms are offering grounds maintenance documentation modules directly to strata managers. Once strata councils adopt self-managed documentation tools, Greenmark's reporting advantage is replaced by a software workflow.",
+    "buyer_profile": "Strata council members, property managers, and municipal contract administrators requiring documented grounds performance records for bylaw compliance, owner reporting, or contract verification.",
+    "risk_flags": [
+      "Report quality depends on crew documentation consistency — requires standardized field checklists",
+      "Strata clients may expect documentation to be included in base contract rather than priced as an add-on",
+      "Regulatory scope varies — water reporting requirements differ by municipality",
+      "Seasonal variability — report cadence and content must adapt to service cycles"
+    ],
+    "time_window": {
+      "urgency_level": 5,
+      "window_opens": "Immediate",
+      "window_closes": "24-36 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive."
+    },
+    "multiplier_dimension": "Adjacent Market Expansion",
+    "adjacency_archetype": "CD-03: Compliance & Documentation",
+    "entry_path_90_days": {
+      "days_1_30": "Identify what documentation strata and municipal clients currently request informally. Design standard grounds condition report and irrigation summary template. Map top 10 clients by documentation request frequency.",
+      "days_31_60": "Pilot monthly documentation packages with 5 strata clients. Present as a value-add first, then introduce subscription pricing. Collect feedback on format and content.",
+      "days_61_90": "Price documentation subscription as add-on to maintenance contract. Develop strata-specific pitch connecting documentation to bylaw compliance and owner meeting requirements.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Strata clients requesting written records of work completed — requests Greenmark was fulfilling informally via email without billing for the time or structuring the output.",
+      "multiplier_dimension_sensed": "Adjacent Market Expansion — compliance and documentation archetype. The data was already being collected operationally. The monetization gap was packaging and delivery.",
+      "non_obvious_connection": "Landscaping companies are not thought of as documentation businesses. But their crews generate systematic grounds condition data on every visit — data that strata bylaws and municipal contracts increasingly require in written form.",
+      "disqualifying_risks_checked": "This is a moderate adjacency — viable but not frictionless. Client resistance to paying separately for documentation, seasonal variability, and crew consistency all constrain the opportunity meaningfully. The path works best when anchored to a specific compliance trigger.",
+      "strongest_reason_it_works": "Greenmark already has the visit frequency, site access, and operational data that grounds documentation requires. A strata manager cannot produce these records without Greenmark's input. The documentation capability is inseparable from the service.",
+      "transferable_lesson": "Grounds maintenance companies can convert operational data into documentation subscriptions — but the moderate score reflects real client resistance and seasonal constraints. Anchoring the pitch to a specific bylaw or insurance requirement significantly improves conversion."
+    }
+  }
+}
