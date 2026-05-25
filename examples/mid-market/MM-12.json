@@ -1,0 +1,93 @@
+{
+  "wmaf_version": "1.0",
+  "example_id": "MM-12",
+  "company_profile": {
+    "name": "Stericycle (acquired by Waste Management, 2024)",
+    "industry": "Regulated Medical Waste & Compliance Services",
+    "annual_revenue_bracket": "1B+",
+    "years_in_operation": "35 years",
+    "geography": "North America (primary), 12 countries worldwide",
+    "core_product_or_service": "Collection, transportation, treatment, and disposal of regulated medical waste. Secure information destruction (Shred-It). OSHA and HIPAA compliance training and resources for healthcare facilities.",
+    "notes": "Stericycle is a real public company acquired by Waste Management Inc. for approximately $7.2 billion in June 2024. All adjacency analysis reflects publicly available information and is for illustrative purposes only. This is not investment advice."
+  },
+  "variables": {
+    "capability_distance":   0.75,
+    "customer_overlap":      0.90,
+    "asset_reusability":     0.85,
+    "market_proximity":      0.80,
+    "synergy_potential":     0.80,
+    "scalability_index":     0.75,
+    "strategic_optionality": 0.78,
+    "friction_score":        0.40,
+    "capital_intensity":     0.30,
+    "time_to_viability":     0.55,
+    "risk_exposure":         0.35
+  },
+  "transformation": {
+    "weighted_variables": {
+      "capability_distance":   0.0750,
+      "customer_overlap":      0.0900,
+      "asset_reusability":     0.2125,
+      "market_proximity":      0.0800,
+      "synergy_potential":     0.1200,
+      "scalability_index":     0.0375,
+      "strategic_optionality": 0.0624,
+      "friction_score":       -0.0280,
+      "capital_intensity":    -0.0180,
+      "time_to_viability":    -0.0440,
+      "risk_exposure":        -0.0420
+    },
+    "adjacency_score": 0.5454,
+    "verdict": "Moderate adjacency",
+    "confidence_score": 71,
+    "scenario_analysis": {
+      "base_case_summary": "WM completes Stericycle integration by 2026-2027 and begins packaging chain-of-custody disposal data as a recurring compliance documentation service. Adoption is moderate among mid-size healthcare networks facing increasing EPA and DEA reporting burdens.",
+      "optimistic_case_summary": "Regulatory pressure on pharmaceutical waste and controlled substance disposal accelerates across multiple US states simultaneously. Stericycle's compliance reporting product becomes a mandated or strongly preferred solution for facilities seeking audit-ready documentation. Recurring SaaS revenue layer adds meaningfully to WM's healthcare vertical.",
+      "conservative_case_summary": "WM deprioritizes compliance product development through 2027 while focused on cost synergy extraction. A vertical SaaS competitor or compliance-native firm packages equivalent reporting functionality and begins displacing Stericycle in its own customer base before WM acts.",
+      "notes": "Scenario descriptions are qualitative and directional only. They do not represent forecasts, guarantees, or financial advice. The primary constraint on this adjacency is organizational will within a large acquirer, not structural capability."
+    }
+  },
+  "opportunity_object": {
+    "headline": "Convert Stericycle's existing chain-of-custody disposal data into a recurring environmental and regulatory reporting-as-a-service product for healthcare facilities.",
+    "signal": "Healthcare facilities face an expanding wall of EPA, DEA, OSHA, and state-level reporting requirements on pharmaceutical waste, hazardous materials, and controlled substance disposal. Most facilities have no structured documentation system — they rely on their waste vendors. Stericycle already collects the underlying data on every service route.",
+    "why_now": "Pharmaceutical waste regulations are tightening at the state level. DEA controlled substance disposal requirements have increased scrutiny since 2023. ESG reporting demands are pushing healthcare systems to document environmental compliance more rigorously. The data Stericycle collects has regulatory value that currently goes unpackaged.",
+    "asset_advantage": "Stericycle operates inside approximately 317,000 healthcare locations across North America with recurring access, established trust, and years of facility-specific disposal records. A new entrant building toward the same compliance reporting product would need to acquire both the customer relationships and the historical data from scratch — a multi-year disadvantage.",
+    "adjacent_opportunity": "Environmental and regulatory reporting-as-a-service: recurring compliance documentation packages built from existing chain-of-custody disposal data, formatted for EPA, DEA, OSHA, and state agency requirements. Delivered as a subscription add-on to existing waste pickup contracts through the MyStericycle customer portal.",
+    "revenue_upside": {
+      "qualitative_potential": "high",
+      "revenue_bracket_directional": "Directional only — not a forecast. At modest adoption rates across Stericycle's existing customer base, recurring compliance documentation subscriptions represent a material new revenue layer with near-zero incremental data collection cost.",
+      "assumptions_summary": "Data is already being collected on every route. Incremental cost is in packaging, formatting, and portal delivery — not in data acquisition. Margin profile on a SaaS compliance layer would structurally exceed the margin profile of the underlying waste pickup service."
+    },
+    "cost_of_waiting": "Vertical SaaS companies and compliance-native software firms are actively building toward healthcare environmental reporting. Once those vendors establish reporting relationships with facility managers, Stericycle becomes a data input to someone else's product rather than the product itself. WM's integration window is finite.",
+    "buyer_profile": "Facility directors, environmental health and safety managers, and compliance officers at hospitals, health systems, outpatient clinics, long-term care facilities, and pharmacy networks managing regulated waste streams across multiple locations.",
+    "risk_flags": [
+      "Organizational inertia — WM is a $20B waste conglomerate mid-integration; compliance product development may not be prioritized until 2026 or later",
+      "WM leadership confirmed cross-selling not built into 2025 business plans — timeline risk is real",
+      "Regulatory complexity varies significantly by state — a standardized reporting product requires compliance with a patchwork of requirements",
+      "Data liability — clear contractual scope required to define what Stericycle is and is not certifying in compliance reports",
+      "Competitor timing — a more agile vertical SaaS firm could reach Stericycle's customers before WM acts"
+    ],
+    "time_window": {
+      "urgency_level": 6,
+      "window_opens": "Post-integration stabilization — estimated 2026",
+      "window_closes": "36-48 months",
+      "timing_notes": "Timing is contextual and directional only. Not predictive. The constraint is organizational, not structural — which means the window closes faster if a competitor moves than if regulations accelerate."
+    },
+    "multiplier_dimension": "Product Advancement",
+    "adjacency_archetype": "CD-03: Compliance & Documentation",
+    "entry_path_90_days": {
+      "days_1_30": "Audit existing chain-of-custody data fields collected across route operations. Identify which fields map directly to EPA, DEA, OSHA, and top-5-state reporting requirements. Define the minimum viable compliance report format for pharmaceutical waste and controlled substance disposal.",
+      "days_31_60": "Pilot with 3-5 large health system customers already using MyStericycle portal. Deliver compliance report as a PDF package alongside existing invoicing. Collect feedback on format, frequency, and additional data fields needed.",
+      "days_61_90": "Price recurring compliance documentation subscription as a line-item add-on to existing waste contracts. Define scalable delivery mechanism through MyStericycle portal. Present pilot results and subscription model to WM leadership for integration into 2026 cross-selling plan.",
+      "disclaimer": "Exploratory operational steps only. Not financial, legal, or investment advice."
+    },
+    "reasoning_signature": {
+      "initial_signal": "Healthcare facilities increasingly rely on waste vendors for compliance documentation but receive only chain-of-custody receipts — not formatted regulatory reports. The gap between what Stericycle collects and what regulators require is a packaging problem, not a data problem.",
+      "multiplier_dimension_sensed": "Product Advancement — Stericycle is selling a service (waste pickup) when it could be selling a product (compliance documentation) built from data generated by that service. The service funds the data collection. The product is where the margin lives.",
+      "non_obvious_connection": "Waste management companies are not thought of as compliance software businesses. But Stericycle's chain-of-custody infrastructure is functionally a regulated data collection network. The truck is the data acquisition mechanism. The compliance report is the product that network enables.",
+      "disqualifying_risks_checked": "Capital intensity is low — data exists, portal exists, customer relationships exist. Primary risk is organizational: WM must choose to build this rather than optimize waste routes. Regulatory complexity is real but manageable with a phased state-by-state rollout approach.",
+      "strongest_reason_it_works": "Stericycle already has physical access, trusted relationships, historical disposal records, and a customer portal inside 317,000 healthcare locations. The compliance reporting product requires none of those things to be built — only for existing data to be repackaged and delivered differently.",
+      "transferable_lesson": "Companies with regulated recurring-access service models collect compliance-relevant data as a byproduct of their core operations. That data has standalone product value that almost always goes unpackaged. The question for any service business is not whether the data exists — it does — but whether anyone has decided to sell it."
+    }
+  }
+}
